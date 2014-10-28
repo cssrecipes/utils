@@ -1,0 +1,34 @@
+@import "../index.css";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+.cssr-Grid {
+  width: auto;
+  margin: 0 auto;
+}
+
+  @media (--viewport-min-s) {
+  	.cssr-Grid {
+      width: 30rem;
+    }
+  }
+
+  @media (--viewport-min-m) {
+  	.cssr-Grid {
+      width: 50rem;
+    }
+  }
+
+
+.cssr-Grid-cell {
+  border: 1px solid red;
+  background: #f0f0f0;
+}
