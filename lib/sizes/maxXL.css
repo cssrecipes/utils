@@ -1,4 +1,4 @@
-@media (--viewport-max-xl) {
+@media (--cssr-maxXL) {
 
   .cssr-maxXL--1of12 {
     width: calc(100% * 1 / 12);
@@ -111,6 +111,13 @@
     width: calc(100% * 11 / 12);
   }
 
+  .cssr-maxXL--2of2,
+  .cssr-maxXL--3of3,
+  .cssr-maxXL--4of4,
+  .cssr-maxXL--5of5,
+  .cssr-maxXL--6of6,
+  .cssr-maxXL--8of8,
+  .cssr-maxXL--10of10,
   .cssr-maxXL--12of12 {
     width: 100%;
   }

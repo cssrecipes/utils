@@ -1,9 +1,8 @@
 {
   "name": "cssrecipes-utils",
   "version": "0.1.0",
-  "description": "CSS utils",
-  "main": "index.js",
-   "keywords": [
+  "description": "Some generic, semantic, responsives CSS utilities",
+  "keywords": [
     "browser",
     "style",
     "css",
@@ -15,6 +14,32 @@
     "sizing",
     "responsive"
   ],
+  "main": "index.js",
+  "author": "bloodyowl",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cssrecipes/utils.git"
+  },
+  "homepage": "https://github.com/cssrecipes/utils",
+  "bugs": {
+    "url": "https://github.com/cssrecipes/utils/issues"
+  },
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "lib",
+    "index.js"
+  ],
+  "peerDependencies": {
+    "cssrecipes-custom-media-queries": "^0.2.0"
+  },
+  "devDependencies": {
+    "cssnext": "^0.4.0",
+    "cssrecipes-defaults": "^0.3.0",
+    "cssrecipes-custom-media-queries": "^0.2.0",
+    "cssrecipes-grid": "^0.2.0"
+  },
   "scripts": {
     "setup": "npm install && mkdir -p build",
     "preprocess": "cssnext index.css build/index.css",
@@ -22,21 +47,5 @@
     "preprocess-test": "cssnext test/test.css build/test.css",
     "build-test": "npm run setup && npm run preprocess-test",
     "test": "npm run build-test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:cssrecipes/utils.git"
-  },
-  "author": "bloodyowl",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cssrecipes/utils/issues"
-  },
-  "homepage": "https://github.com/cssrecipes/utils",
-  "dependencies": {
-    "cssrecipes-custom-media-queries": "^0.1.0"
-  },
-  "devDependencies": {
-    "cssnext": "^0.4.0"
   }
 }

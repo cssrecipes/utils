@@ -108,6 +108,14 @@
 .cssr-all--11of12 {
   width: calc(100% * 11 / 12);
 }
+
+.cssr-all--2of2,
+.cssr-all--3of3,
+.cssr-all--4of4,
+.cssr-all--5of5,
+.cssr-all--6of6,
+.cssr-all--8of8,
+.cssr-all--10of10,
 .cssr-all--12of12 {
   width: 100%;
 }

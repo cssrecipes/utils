@@ -1,16 +1,21 @@
 # utils
 
-> Sizing utils
+> Some generic, semantic, responsives CSS utilities
 
 ## Install
 
-```sh
+```console
 $ npm install cssrecipes-utils
+```
+
+```css
+@import "./node_modules/cssrecipes-custom-media-queries/index.css";
+@import "./node_modules/cssrecipes-utils/index.css";
 ```
 
 ## Usage
 
-These utils work well with `cssrecipes-grid` :
+These utils work well with [cssrecipes-grid](https://github.com/cssrecipes/grid) :
 
 ### Mobile-first
 
@@ -51,27 +56,27 @@ These utils work well with `cssrecipes-grid` :
 </div>
 ```
 
-## sizing prefixes
+## Sizing prefixes
 
-### default size
+### Default size
 
-- `cssr-all-XofY`
+- `.cssr-all-XofY`
 
-### mobile-first
+### Mobile-first
 
-- `cssr-minS-XofY`
-- `cssr-minM-XofY`
-- `cssr-minL-XofY`
-- `cssr-minXL-XofY`
+- `.cssr-minS-XofY`
+- `.cssr-minM-XofY`
+- `.cssr-minL-XofY`
+- `.cssr-minXL-XofY`
 
-### desktop-first
+### Desktop-first
 
-- `cssr-maxS-XofY`
-- `cssr-maxM-XofY`
-- `cssr-maxL-XofY`
-- `cssr-maxXL-XofY`
+- `.cssr-maxS-XofY`
+- `.cssr-maxM-XofY`
+- `.cssr-maxL-XofY`
+- `.cssr-maxXL-XofY`
 
-## available sizing
+## Available sizing
 
 ### 2-columns grid
 
@@ -153,13 +158,13 @@ These utils work well with `cssrecipes-grid` :
 
 To generate a build:
 
-```sh
+```console
 $ npm run build
 ```
 
 To generate the testing build.
 
-```sh
+```console
 $ npm run build-test
 ```
 
@@ -169,7 +174,7 @@ Basic visual tests are in `test/index.html`.
 
 Work on a branch, install dev-dependencies, respect coding style & run tests before submitting a bug fix or a feature.
 
-```sh
+```console
 $ git clone https://github.com/cssrecipes/utils.git
 $ git checkout -b patch-1
 $ npm install

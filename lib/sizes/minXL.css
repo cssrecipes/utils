@@ -1,4 +1,4 @@
-@media (--viewport-min-xl) {
+@media (--cssr-minXL) {
 
   .cssr-minXL--1of12 {
     width: calc(100% * 1 / 12);
@@ -111,6 +111,13 @@
     width: calc(100% * 11 / 12);
   }
 
+  .cssr-minXL--2of2,
+  .cssr-minXL--3of3,
+  .cssr-minXL--4of4,
+  .cssr-minXL--5of5,
+  .cssr-minXL--6of6,
+  .cssr-minXL--8of8,
+  .cssr-minXL--10of10,
   .cssr-minXL--12of12 {
     width: 100%;
   }
