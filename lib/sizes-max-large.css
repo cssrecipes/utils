@@ -111,4 +111,8 @@
     width: calc(100% * 11 / 12);
   }
 
+  .cssr-maxL--12of12 {
+    width: 100%;
+  }
+
 }
