@@ -2,14 +2,6 @@
   do not change the order of the imports, this prevents us
   from having to use `!important` shit
  */
-@import "./lib/sizes/all.css";
-
-@import "./lib/sizes/maxXL.css";
-@import "./lib/sizes/maxL.css";
-@import "./lib/sizes/maxM.css";
-@import "./lib/sizes/maxS.css";
-
-@import "./lib/sizes/minS.css";
-@import "./lib/sizes/minM.css";
-@import "./lib/sizes/minL.css";
-@import "./lib/sizes/minXL.css";
+@import "./lib/all.css";
+@import "./lib/max.css";
+@import "./lib/min.css";

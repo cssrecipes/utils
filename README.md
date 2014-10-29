@@ -10,7 +10,7 @@ $ npm install cssrecipes-utils
 
 ```css
 @import "./node_modules/cssrecipes-custom-media-queries/index.css";
-@import "./node_modules/cssrecipes-utils/index.css";
+@import "./node_modules/cssrecipes-utils/index.css"; /* all, max (desktop first) & min (mobile first) versions */
 ```
 
 ## Usage
@@ -18,6 +18,12 @@ $ npm install cssrecipes-utils
 These utils work well with [cssrecipes-grid](https://github.com/cssrecipes/grid) :
 
 ### Mobile-first
+
+```css
+@import "./node_modules/cssrecipes-custom-media-queries/index.css";
+@import "./node_modules/cssrecipes-utils/all.css";
+@import "./node_modules/cssrecipes-utils/min.css";
+```
 
 ```html
 <div class="cssr-Grid">
@@ -32,6 +38,12 @@ These utils work well with [cssrecipes-grid](https://github.com/cssrecipes/grid)
 
 ### Desktop-first
 
+```css
+@import "./node_modules/cssrecipes-custom-media-queries/index.css";
+@import "./node_modules/cssrecipes-utils/all.css";
+@import "./node_modules/cssrecipes-utils/max.css";
+```
+
 ```html
 <div class="cssr-Grid">
   <div class="cssr-Grid-cell cssr-all-1of4 cssr-maxL-1of3 cssr-maxM-1of2">
@@ -44,6 +56,10 @@ These utils work well with [cssrecipes-grid](https://github.com/cssrecipes/grid)
 ```
 
 ### Without responsive
+
+```css
+@import "./node_modules/cssrecipes-utils/all.css";
+```
 
 ```html
 <div class="cssr-Grid">

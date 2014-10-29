@@ -1,7 +1,6 @@
 @import "../node_modules/cssrecipes-defaults/index.css";
 @import "../node_modules/cssrecipes-custom-media-queries/index.css";
 @import "../node_modules/cssrecipes-grid/index.css";
-@import "../index.css";
 
 .cssr-Grid {
   width: auto;
@@ -24,3 +23,5 @@
   border: 1px solid red;
   background: #f0f0f0;
 }
+
+@import "../index.css";
