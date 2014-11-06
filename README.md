@@ -28,10 +28,10 @@ These utils work well with [cssrecipes-grid](https://github.com/cssrecipes/grid)
 ```html
 <div class="cssr-Grid">
   <div class="cssr-Grid-cell cssr-all-1of2 cssr-minM-1of3 cssr-minL-1of4">
-    <!-- come content-->
+    <!-- your content-->
   </div>
   <div class="cssr-Grid-cell cssr-all-1of2 cssr-minM-2of3 cssr-minL-3of4">
-    <!-- come content-->
+    <!-- your content-->
   </div>
 </div>
 ```
@@ -47,10 +47,10 @@ These utils work well with [cssrecipes-grid](https://github.com/cssrecipes/grid)
 ```html
 <div class="cssr-Grid">
   <div class="cssr-Grid-cell cssr-all-1of4 cssr-maxL-1of3 cssr-maxM-1of2">
-    <!-- come content-->
+    <!-- your content-->
   </div>
   <div class="cssr-Grid-cell cssr-all-3of4 cssr-maxL-2of3 cssr-maxM-1of2">
-    <!-- come content-->
+    <!-- your content-->
   </div>
 </div>
 ```
@@ -64,10 +64,10 @@ These utils work well with [cssrecipes-grid](https://github.com/cssrecipes/grid)
 ```html
 <div class="cssr-Grid">
   <div class="cssr-Grid-cell cssr-all-1of4">
-    <!-- come content-->
+    <!-- your content-->
   </div>
   <div class="cssr-Grid-cell cssr-all-3of4">
-    <!-- come content-->
+    <!-- your content-->
   </div>
 </div>
 ```
