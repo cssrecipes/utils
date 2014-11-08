@@ -1,3 +1,7 @@
+# 0.4.1 - 2014-11-08
+
+- fix outdated deps
+
 # 0.4.0 - 2014-11-08
 
 - update org prefix to `r`
