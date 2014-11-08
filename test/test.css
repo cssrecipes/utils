@@ -2,24 +2,24 @@
 @import "../node_modules/cssrecipes-custom-media-queries/index.css";
 @import "../node_modules/cssrecipes-grid/index.css";
 
-.cssr-Grid {
+.r-Grid {
   width: auto;
   margin: 0 auto;
 }
 
-  @media (--cssr-minS) {
-  	.cssr-Grid {
+  @media (--r-minS) {
+  	.r-Grid {
       width: 30rem;
     }
   }
 
-  @media (--cssr-minM) {
-  	.cssr-Grid {
+  @media (--r-minM) {
+  	.r-Grid {
       width: 50rem;
     }
   }
 
-.cssr-Grid-cell {
+.r-Grid-cell {
   border: 1px solid red;
   background: #f0f0f0;
 }

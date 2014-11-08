@@ -26,11 +26,11 @@ These utils work well with [cssrecipes-grid](https://github.com/cssrecipes/grid)
 ```
 
 ```html
-<div class="cssr-Grid">
-  <div class="cssr-Grid-cell cssr-all--1of2 cssr-minM--1of3 cssr-minL--1of4">
+<div class="r-Grid">
+  <div class="r-Grid-cell r-all--1of2 r-minM--1of3 r-minL--1of4">
     <!-- your content-->
   </div>
-  <div class="cssr-Grid-cell cssr-all--1of2 cssr-minM--2of3 cssr-minL--3of4">
+  <div class="r-Grid-cell r-all--1of2 r-minM--2of3 r-minL--3of4">
     <!-- your content-->
   </div>
 </div>
@@ -45,11 +45,11 @@ These utils work well with [cssrecipes-grid](https://github.com/cssrecipes/grid)
 ```
 
 ```html
-<div class="cssr-Grid">
-  <div class="cssr-Grid-cell cssr-all--1of4 cssr-maxL--1of3 cssr-maxM--1of2">
+<div class="r-Grid">
+  <div class="r-Grid-cell r-all--1of4 r-maxL--1of3 r-maxM--1of2">
     <!-- your content-->
   </div>
-  <div class="cssr-Grid-cell cssr-all--3of4 cssr-maxL--2of3 cssr-maxM--1of2">
+  <div class="r-Grid-cell r-all--3of4 r-maxL--2of3 r-maxM--1of2">
     <!-- your content-->
   </div>
 </div>
@@ -62,11 +62,11 @@ These utils work well with [cssrecipes-grid](https://github.com/cssrecipes/grid)
 ```
 
 ```html
-<div class="cssr-Grid">
-  <div class="cssr-Grid-cell cssr-all--1of4">
+<div class="r-Grid">
+  <div class="r-Grid-cell r-all--1of4">
     <!-- your content-->
   </div>
-  <div class="cssr-Grid-cell cssr-all--3of4">
+  <div class="r-Grid-cell r-all--3of4">
     <!-- your content-->
   </div>
 </div>
@@ -76,21 +76,21 @@ These utils work well with [cssrecipes-grid](https://github.com/cssrecipes/grid)
 
 ### Default size
 
-- `.cssr-all--XofY`
+- `.r-all--XofY`
 
 ### Mobile-first
 
-- `.cssr-minS--XofY`
-- `.cssr-minM--XofY`
-- `.cssr-minL--XofY`
-- `.cssr-minXL--XofY`
+- `.r-minS--XofY`
+- `.r-minM--XofY`
+- `.r-minL--XofY`
+- `.r-minXL--XofY`
 
 ### Desktop-first
 
-- `.cssr-maxS--XofY`
-- `.cssr-maxM--XofY`
-- `.cssr-maxL--XofY`
-- `.cssr-maxXL--XofY`
+- `.r-maxS--XofY`
+- `.r-maxM--XofY`
+- `.r-maxL--XofY`
+- `.r-maxXL--XofY`
 
 ## Available sizing
 
