@@ -94,6 +94,10 @@ These utils work well with [cssrecipes-grid](https://github.com/cssrecipes/grid)
 
 ## Available sizing
 
+### full-size grid (1 column)
+
+- `*--1of1`
+
 ### 2-columns grid
 
 - `*--1of2`
