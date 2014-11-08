@@ -111,6 +111,7 @@
     width: calc(100% * 11 / 12);
   }
 
+  .r-maxS--1of1,
   .r-maxS--2of2,
   .r-maxS--3of3,
   .r-maxS--4of4,

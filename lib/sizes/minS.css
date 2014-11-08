@@ -111,6 +111,7 @@
     width: calc(100% * 11 / 12);
   }
 
+  .r-minS--1of1,
   .r-minS--2of2,
   .r-minS--3of3,
   .r-minS--4of4,
