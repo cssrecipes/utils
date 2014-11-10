@@ -21,8 +21,8 @@ These utils work well with [cssrecipes-grid](https://github.com/cssrecipes/grid)
 
 ```css
 @import "./node_modules/cssrecipes-custom-media-queries/index.css";
-@import "./node_modules/cssrecipes-utils/all.css";
-@import "./node_modules/cssrecipes-utils/min.css";
+@import "./node_modules/cssrecipes-utils/lib/all.css";
+@import "./node_modules/cssrecipes-utils/lib/min.css";
 ```
 
 ```html
@@ -40,8 +40,8 @@ These utils work well with [cssrecipes-grid](https://github.com/cssrecipes/grid)
 
 ```css
 @import "./node_modules/cssrecipes-custom-media-queries/index.css";
-@import "./node_modules/cssrecipes-utils/all.css";
-@import "./node_modules/cssrecipes-utils/max.css";
+@import "./node_modules/cssrecipes-utils/lib/all.css";
+@import "./node_modules/cssrecipes-utils/lib/max.css";
 ```
 
 ```html
@@ -58,7 +58,7 @@ These utils work well with [cssrecipes-grid](https://github.com/cssrecipes/grid)
 ### Without responsive
 
 ```css
-@import "./node_modules/cssrecipes-utils/all.css";
+@import "./node_modules/cssrecipes-utils/lib/all.css";
 ```
 
 ```html
