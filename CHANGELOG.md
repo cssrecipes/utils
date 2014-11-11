@@ -1,3 +1,11 @@
+# 0.4.3 - 2014-11-11
+
+- fix missing index.css
+
+# 0.4.2 - 2014-11-09
+
+- add full-size grid (1 column)
+
 # 0.4.1 - 2014-11-08
 
 - fix outdated deps
