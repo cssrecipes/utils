@@ -204,3 +204,9 @@ $ npm test
 ## [Changelog](CHANGELOG.md)
 
 ## [License](LICENSE)
+
+---
+
+## Acknowledgements
+
+This utilities have been inspired by some [SUIT CSS utilities](https://github.com/suitcss/utils/).
