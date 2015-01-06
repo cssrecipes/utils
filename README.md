@@ -172,6 +172,15 @@ These utils work well with [cssrecipes-grid](https://github.com/cssrecipes/grid)
 - `*--11of12`
 - `*--12of12`
 
+## Show or hide elements
+
+- `*--visible`
+- `*--hidden`
+
+**NOTE** : be careful with the `*--visible` className, it makes the element
+visible in `inline-block`, as its main goal is to work with
+[cssrecipes/grid](https://github.com/cssrecipes/grid)
+
 ---
 
 ## Testing
