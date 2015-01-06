@@ -1,3 +1,7 @@
+# 0.5.0 - 2015-01-06
+
+- added `visible` & `hidden` utilities
+
 # 0.4.3 - 2014-11-11
 
 - fix missing index.css
