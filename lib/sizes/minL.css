@@ -123,4 +123,11 @@
     width: 100%;
   }
 
+  .r-minL--hidden {
+    display: none;
+  }
+
+  .r-minL--visible {
+    display: inline-block;
+  }
 }

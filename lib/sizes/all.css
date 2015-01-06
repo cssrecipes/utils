@@ -120,3 +120,11 @@
 .r-all--12of12 {
   width: 100%;
 }
+
+.r-all--hidden {
+  display: none;
+}
+
+.r-all--visible {
+  display: inline-block;
+}
