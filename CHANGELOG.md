@@ -1,3 +1,7 @@
+# 0.6.0 - 2015-12-03
+
+- added `*of7`, `*of9`, `*of11` size
+
 # 0.5.0 - 2015-01-06
 
 - added `visible` & `hidden` utilities
