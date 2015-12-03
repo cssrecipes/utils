@@ -12,6 +12,10 @@
     width: 12.5%;
   }
 
+  .r-minM--1of7 {
+    width: calc(100% * 1 / 7);
+  }
+
   .r-minM--1of6,
   .r-minM--2of12 {
     width: calc(100% * 1 / 6);
@@ -26,6 +30,10 @@
   .r-minM--2of8,
   .r-minM--3of12 {
     width: 25%;
+  }
+
+  .r-minM--2of7 {
+    width: calc(100% * 2 / 7);
   }
 
   .r-minM--3of10 {
@@ -51,6 +59,10 @@
     width: calc(100% * 5 / 12);
   }
 
+  .r-minM--3of7 {
+    width: calc(100% * 3 / 7);
+  }
+
   .r-minM--1of2,
   .r-minM--2of4,
   .r-minM--3of6,
@@ -58,6 +70,10 @@
   .r-minM--5of10,
   .r-minM--6of12 {
     width: 50%;
+  }
+
+  .r-minM--4of7 {
+    width: calc(100% * 4 / 7)
   }
 
   .r-minM--7of12 {
@@ -83,6 +99,10 @@
     width: 70%;
   }
 
+  .r-minM--5of7 {
+    width: calc(100% * 5 / 7);
+  }
+
   .r-minM--3of4,
   .r-minM--6of8,
   .r-minM--9of12 {
@@ -97,6 +117,10 @@
   .r-minM--5of6,
   .r-minM--10of12 {
     width: calc(100% * 5 / 6);
+  }
+
+  .r-minM--6of7 {
+    width: calc(100% 6 / 7);
   }
 
   .r-minM--7of8 {
@@ -117,6 +141,7 @@
   .r-minM--4of4,
   .r-minM--5of5,
   .r-minM--6of6,
+  .r-minM--7of7,
   .r-minM--8of8,
   .r-minM--10of10,
   .r-minM--12of12 {
@@ -130,4 +155,5 @@
   .r-minM--visible {
     display: inline-block;
   }
+
 }
