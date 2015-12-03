@@ -2,6 +2,10 @@
   width: calc(100% * 1 / 12);
 }
 
+.r-all--1of11 {
+  width: calc(100% * 1 / 11);
+}
+
 .r-all--1of10 {
   width: 10%;
 }
@@ -23,6 +27,10 @@
   width: calc(100% * 1 / 6);
 }
 
+.r-all--2of11 {
+  width: calc(100% * 2 / 11);
+}
+
 .r-all--1of5,
 .r-all--2of10 {
   width: 20%;
@@ -38,6 +46,10 @@
   width: 25%;
 }
 
+.r-all--3of11 {
+  width: calc(100% * 3 / 11);
+}
+
 .r-all--2of7 {
   width: calc(100% * 2 / 7);
 }
@@ -51,6 +63,10 @@
 .r-all--3of9,
 .r-all--4of12 {
   width: calc(100% * 1 / 3);
+}
+
+.r-all--4of11 {
+  width: calc(100* 4 / 11);
 }
 
 .r-all--3of8 {
@@ -74,6 +90,10 @@
   width: calc(100% * 4 / 9);
 }
 
+.r-all--5of11 {
+  width: calc(100% * 5 / 11);
+}
+
 .r-all--1of2,
 .r-all--2of4,
 .r-all--3of6,
@@ -81,6 +101,10 @@
 .r-all--5of10,
 .r-all--6of12 {
   width: 50%;
+}
+
+.r-all--6of11 {
+  width: calc(100 * 6 / 11 );
 }
 
 .r-all--5of9 {
@@ -98,6 +122,10 @@
 .r-all--3of5,
 .r-all--6of10 {
   width: 60%;
+}
+
+.r-all--7of11 {
+  width: calc(100% * 7 / 11);
 }
 
 .r-all--5of8 {
@@ -119,6 +147,10 @@
   width: calc(100% * 5 / 7);
 }
 
+.r-all--8of11 {
+  width: calc(100% * 8 / 11);
+}
+
 .r-all--3of4,
 .r-all--6of8,
 .r-all--9of12 {
@@ -132,6 +164,10 @@
 .r-all--4of5,
 .r-all--8of10 {
   width: 80%;
+}
+
+.r-all--9of11 {
+  width: calc(100% * 9 / 11);
 }
 
 .r-all--5of6,
@@ -153,6 +189,10 @@
 
 .r-all--9of10 {
   width: 90%;
+}
+
+.r-all--10of11 {
+  width: calc(100% * 10 / 11);
 }
 
 .r-all--11of12 {
