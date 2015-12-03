@@ -16,17 +16,8 @@
   ],
   "author": "bloodyowl",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/cssrecipes/utils.git"
-  },
-  "homepage": "https://github.com/cssrecipes/utils",
-  "bugs": {
-    "url": "https://github.com/cssrecipes/utils/issues"
-  },
+  "repository": "https://github.com/cssrecipes/utils.git",
   "files": [
-    "CHANGELOG.md",
-    "LICENSE",
     "lib",
     "index.css"
   ],
@@ -34,7 +25,7 @@
     "cssrecipes-custom-media-queries": "^0.3.0"
   },
   "devDependencies": {
-    "cssnext": "^0.4.0",
+    "cssnext": "^1.8.0",
     "cssrecipes-defaults": "^0.4.0",
     "cssrecipes-custom-media-queries": "^0.3.0",
     "cssrecipes-grid": "^0.4.0"
