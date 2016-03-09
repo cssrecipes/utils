@@ -68,7 +68,7 @@
   }
 
   .r-maxS--4of11 {
-    width: calc(100* 4 / 11);
+    width: calc(100% * 4 / 11);
   }
 
   .r-maxS--3of8 {
@@ -106,7 +106,7 @@
   }
 
   .r-maxS--6of11 {
-    width: calc(100 * 6 / 11 );
+    width: calc(100% * 6 / 11 );
   }
 
   .r-maxS--5of9 {
