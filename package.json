@@ -14,7 +14,11 @@
     "sizing",
     "responsive"
   ],
-  "author": "bloodyowl",
+  "authors": [
+    "bloodyowl",
+    "Maxime Thirouin",
+    "Guillaume Demesy"
+  ],
   "license": "MIT",
   "repository": "https://github.com/cssrecipes/utils.git",
   "files": [
@@ -26,9 +30,10 @@
   },
   "devDependencies": {
     "cssnext": "^1.8.0",
-    "cssrecipes-defaults": "^0.4.0",
     "cssrecipes-custom-media-queries": "^0.3.0",
-    "cssrecipes-grid": "^0.4.0"
+    "cssrecipes-defaults": "^0.4.0",
+    "cssrecipes-grid": "^0.4.0",
+    "npmpub": "^3.0.3"
   },
   "scripts": {
     "setup": "npm install && mkdir -p build",
@@ -36,6 +41,7 @@
     "build": "npm run setup && npm run preprocess",
     "preprocess-test": "cssnext test/test.css build/test.css",
     "build-test": "npm run setup && npm run preprocess-test",
-    "test": "npm run build-test"
+    "test": "npm run build-test",
+    "release": "npmpub"
   }
 }
