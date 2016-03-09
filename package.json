@@ -1,6 +1,6 @@
 {
   "name": "cssrecipes-utils",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Some generic, semantic, responsives CSS utilities",
   "keywords": [
     "browser",
