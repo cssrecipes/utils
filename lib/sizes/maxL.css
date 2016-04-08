@@ -110,7 +110,7 @@
   }
 
   .r-maxL--5of9 {
-    width: calc(100% 5 / 9);
+    width: calc(100% * 5 / 9);
   }
 
   .r-maxL--4of7 {
@@ -178,7 +178,7 @@
   }
 
   .r-maxL--6of7 {
-    width: calc(100% 6 / 7);
+    width: calc(100% * 6 / 7);
   }
 
   .r-maxL--7of8 {

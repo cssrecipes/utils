@@ -11,7 +11,7 @@
 }
 
 .r-all--1of9 {
-  width: calc(100% * 1/ 9);
+  width: calc(100% * 1 / 9);
 }
 
 .r-all--1of8 {
@@ -108,7 +108,7 @@
 }
 
 .r-all--5of9 {
-  width: calc(100% 5 / 9);
+  width: calc(100% * 5 / 9);
 }
 
 .r-all--4of7 {
@@ -176,7 +176,7 @@
 }
 
 .r-all--6of7 {
-  width: calc(100% 6 / 7);
+  width: calc(100% * 6 / 7);
 }
 
 .r-all--7of8 {
