@@ -1,3 +1,8 @@
+# 0.6.2 - 2016-04-08
+
+- Fixed: missing multiplication operator in some calc() declarations
+  [#13](https://github.com/cssrecipes/utils/pull/13)
+
 # 0.6.1 - 2016-03-09
 
 - fixed `%` missed
@@ -32,7 +37,7 @@
 
 # 0.2.0 - 2014-10-29
 
-- add .cssr-*--XofX (where X === X)
+- add ``.cssr-*--XofX`` (where X === X)
 - cssrecipes-custom-media-queries is now a peer dep (+ update to 0.2)
 
 # 0.1.0 - 2014-10-24
